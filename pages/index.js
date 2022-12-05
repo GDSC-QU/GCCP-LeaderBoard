@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>30 Days of Cloud - Progress Board</title>
+        <title>oogle Cloud Career Practitioners Program</title>
       </Head>
       <div className = "main-div">
         <footer className="flex apart">
@@ -20,7 +20,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Developed by Aditya Agrawal
+              Program Facilitator: Rajan Chaudhary
             </a>
           </Typography>
         </footer>
@@ -29,7 +29,7 @@ export default function Home() {
             GDSC - {data.institute}
           </Typography>
           <Typography className="bolder" variant="h4" color="secondary">
-            30 Days of Cloud - Progress Board
+            GCCP - Leader Board
           </Typography>
         </div>
         <Table data={data.resultsWithRank}></Table>
