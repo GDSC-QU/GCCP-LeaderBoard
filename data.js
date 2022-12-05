@@ -59,8 +59,8 @@ fs.createReadStream("data/data.csv")
         "Rank": result["Rank"],
         "Student Name" : result['Student Name'],
         "Enrolment Status" : result['Enrolment Status'],
-        "# of Skill Badges Completed in Track 1" : result[track1],
-        "# of Skill Badges Completed in Track 2" : result[track2],
+        "# of Courses Completed" : result[track1],
+        "# of Skill Badges Completed" : result[track2],
         "id" : result['id']
       }
       

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>oogle Cloud Career Practitioners Program</title>
+        <title>Google Cloud Career Practitioners Program</title>
       </Head>
       <div className = "main-div">
         <footer className="flex apart">
