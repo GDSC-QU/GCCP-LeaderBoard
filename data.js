@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const results = [];
 const resultsWithRank = [];
-const track1 = "# of Skill Badges Completed in Track 1", track2 = "# of Skill Badges Completed in Track 2";
+const track1 = "# of Courses Completed", track2 = "# of Skill Badges Completed";
 
 fs.createReadStream("data/data.csv")
   .pipe(csv())
