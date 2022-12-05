@@ -16,7 +16,7 @@ export default function Home() {
           </Typography>
           <Typography variant="body2" color="textSecondary">
             <a
-              href="https://www.github.com/crossphoton"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
